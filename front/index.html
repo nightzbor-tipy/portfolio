@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Core Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elisha Kipkemboi | DevSecOps Engineer & Backend Architect</title>
+    <meta name="description" content="DevSecOps Engineer specializing in Node.js microservices, AWS cloud security, and web application penetration testing." />
+    <meta name="theme-color" content="#0f172a" />
+
+    <!-- Security Meta -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="DevSecOps Engineer | Backend Architect" />
+    <meta property="og:description" content="Secure system architecture, web pentesting, and cloud hardening." />
+    <meta property="og:type" content="website" />
+
+    <!-- Performance -->
+    <link rel="preconnect" href="https://skillicons.dev">
+    <link rel="preconnect" href="https://unpkg.com">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@0.395.0/dist/umd/lucide.min.js" defer></script>
+</head>
+<body>
+
+<!-- ================= NAVIGATION ================= -->
+<nav class="nav">
+    <div class="logo">SEC_ARCH_2026</div>
+    <ul class="nav-links">
+        <li><a href="#architecture">Architecture</a></li>
+        <li><a href="#security">Security</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#contact" class="btn-primary">Request Audit</a></li>
+    </ul>
+</nav>
+<button id="themeToggle" class="btn-outline">🌗</button>
+
+<!-- ================= HERO ================= -->
+<header class="hero">
+    <div class="hero-content">
+        <h1>
+            Designing <span class="highlight">Secure</span> & 
+            Scalable Backend Systems
+        </h1>
+        <p>
+            I architect distributed Node.js systems with zero-trust principles, 
+            then simulate real-world attack vectors to guarantee production resilience.
+        </p>
+
+        <div class="hero-actions">
+            <a href="#architecture" class="btn-primary">View Architecture</a>
+            <a href="#security" class="btn-outline">Security Lab</a>
+        </div>
+
+        <div class="hero-tags">
+            <span>#BackendArchitect</span>
+            <span>#DevSecOps</span>
+            <span>#Pentester</span>
+        </div>
+    </div>
+</header>
+
+<!-- ================= ARCHITECTURE ================= -->
+<section id="architecture" class="section">
+    <h2>System Architecture & Engineering</h2>
+
+    <div class="card-grid">
+
+        <div class="card">
+            <h3>Scalable Express Microservices</h3>
+            <p>
+                Designed a multi-tenant REST API using 
+                <strong>Node.js</strong> and 
+                <strong>PostgreSQL</strong>, 
+                deployed via <strong>AWS Lambda</strong> and CI/CD pipelines.
+            </p>
+            <div class="metrics">
+                <span>99.9% Uptime</span>
+                <span>&lt; 200ms P95 Latency</span>
+                <span>Horizontal Scaling</span>
+            </div>
+            <a href="#" class="card-link">View System Design →</a>
+        </div>
+
+        <div class="card">
+            <h3>Zero-Trust Authentication Layer</h3>
+            <p>
+                Implemented JWT-based stateless authentication with 
+                refresh token rotation, rate limiting, and role-based access control.
+            </p>
+            <div class="metrics">
+                <span>RBAC Enforced</span>
+                <span>Token Rotation</span>
+                <span>Audit Logging</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= SECURITY ================= -->
+<section id="security" class="section terminal-section">
+    <h2>Security Lab & Offensive Testing</h2>
+
+    <div class="terminal">
+        <div class="terminal-header">bash — production-scan</div>
+        <div class="terminal-body">
+<pre>
+$ run vulnerability-scan --target production
+✔ SQL Injection: Not Detected
+✔ XSS: Sanitization Verified
+✔ JWT Signature: Valid
+⚠ Rate limiting missing on /v1/auth
+$ patch apply rate-limit-middleware
+✔ Issue Resolved
+</pre>
+        </div>
+    </div>
+
+    <div class="security-grid">
+        <div>
+            <h4>Web Application Pentesting</h4>
+            <p>OWASP Top 10 auditing, manual exploitation, and remediation reporting.</p>
+        </div>
+        <div>
+            <h4>Database Hardening</h4>
+            <p>Prepared statements, encryption at rest, secret rotation policies.</p>
+        </div>
+        <div>
+            <h4>Cloud Security</h4>
+            <p>AWS IAM least-privilege design, VPC segmentation, logging & monitoring.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ================= STACK ================= -->
+<section id="stack" class="section">
+    <h2>Technology Stack</h2>
+
+    <div class="stack-icons">
+        <img 
+          src="https://skillicons.dev/icons?i=nodejs,postgres,aws,docker,linux,nginx,redis,git,github,typescript" 
+          alt="Technology stack icons" 
+          loading="lazy"
+        />
+    </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section contact">
+    <h2>Let’s Secure Your Infrastructure</h2>
+    <p>Available for architecture consulting, backend engineering, and security audits.</p>
+    <a href="mailto:youremail@example.com" class="btn-primary">Hire for Audit</a>
+</section>
+<canvas id="matrix">
+    <p class="cursor">$ _</p>
+    <span class="counter" data-target="99.9">0</span>% Uptime
+    
+</canvas>
+<section class="section reveal"></section>
+</div>
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>© 2026 Elisha Kipkemboi | Built with Security-First Principles</p>
+    <div class="socials">
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+    </div>
+</footer>
+
+<!-- ================= INIT ================= -->
+<script src="app.js" defer>
+
+</script>
+
+</body>
+</html>
